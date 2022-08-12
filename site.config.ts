@@ -14,10 +14,10 @@ export default siteConfig({
   // basic site info (required)
   name: 'Mobile YUMI Lashes',
   domain: 'mobileyumilashes.com',
-  author: 'Dalyle DevOps Inc.',
+  author: 'Mobile YUMI Lashes',
 
   // open graph metadata (optional)
-  description: '',
+  description: 'A Mother and Daughter trained as Yumicians through a course of studies and practice at YUMI Canada HQ in Vancouver, BC.',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',
@@ -58,11 +58,15 @@ export default siteConfig({
   navigationLinks: [
     {
       title: 'About',
-      pageId: 'f1199d37579b41cbabfc0b5174f4256a'
+      pageId: '1630dff4601448b09cadeea0770db615'
+    },
+    {
+      title: 'Services',
+      pageId: '6e89af819ef743488355d6e7516d1b09'
     },
     {
       title: 'Contact',
-      pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
+      pageId: '34f850c26deb4e9098666ff06e99e1f3'
     }
   ]
 })
