@@ -33,5 +33,14 @@
     "**/.now/": true,
     "**/.vercel/": true,
     "**/.google.json": true
-  }
+  },
+  "conventionalCommits.scopes": [
+    "layout",
+    "vscode"
+  ],
+  "vs-browser.reload.autoReloadEnabled": false,
+  "vs-browser.reload.autoReloadDurationTime": 3000,
+  "vs-browser.reload.onSave": true,
+  "vs-browser.url": "http://localhost:3000",
+  "editor.defaultFormatter": "HookyQR.beautify"
 }
