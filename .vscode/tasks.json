@@ -7,6 +7,14 @@
 			"problemMatcher": [],
 			"label": "npm: dev",
 			"detail": "next dev"
+		},
+		{
+			"type": "yarn",
+			"task": "dev",
+			"problemMatcher": [
+				"$gulp-tsc"
+			],
+			"label": "yarn: dev"
 		}
 	]
 }
