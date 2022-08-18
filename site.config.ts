@@ -5,26 +5,27 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'cf579cbe774d4d1d973fbd1ee524f128',
+  rootNotionPageId: 'fffee79cbcd64e9d88927bd8f46d366c',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Mobile YUMI Lashes',
-  domain: 'mobileyumilashes.com',
-  author: 'Mobile YUMI Lashes',
+  name: 'GregArts',
+  domain: 'art.stevens.pro',
+  author: 'Greg Stevens',
 
   // open graph metadata (optional)
-  description: 'A Mother and Daughter trained as Yumicians through a course of studies and practice at YUMI Canada HQ in Vancouver, BC.',
+  description: 'Finding the Artist within myself. Thanks to Mr. Robert Sinclair for his daily texts of motivation and inspiration.',
 
   // social usernames (optional)
-  // twitter: 'transitive_bs',
-  // github: 'transitive-bullshit',
+  twitter: 'DalyleDevOpsInc',
+  github: 'GregSweats',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
+  youtube: 'channel/UCEOR5OVIgWpsRVZcoyz8i0Q', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
   // instagram: 'mobileyumilashes',
 
   // default notion icon and cover images for site-wide consistency (optional)
@@ -53,7 +54,8 @@ export default siteConfig({
 
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  // navigationStyle: 'default'
+  navigationStyle: 'default'
+/*
   navigationStyle: 'custom',
   navigationLinks: [
     {
@@ -68,5 +70,5 @@ export default siteConfig({
       title: 'Contact',
       pageId: '34f850c26deb4e9098666ff06e99e1f3'
     }
-  ]
+  ] */
 })
